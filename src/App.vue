@@ -1,14 +1,22 @@
 <template>
-  <section>
-    <div id="nav">
-      <router-link to="/news">News</router-link>
-      <router-link to="/faq">FAQ</router-link>
-    </div>
+  <div class="app">
+    <Navbar />
     <div class="container">
       <router-view></router-view>
     </div>
-  </section>
+  </div>
 </template>
+
+<script>
+import Navbar from "./components/Navbar.vue"
+
+export default {
+  name: "app",
+  components: {
+    Navbar
+  }
+}
+</script>
 
 <style>
 
@@ -21,7 +29,6 @@
 body {
   background-color: #0d0d0d;
   font-family: Titillium Web,sans-serif;
-  text-decoration: none;
 }
 
 h2 {
@@ -47,13 +54,15 @@ p {
   height: 100vh;
 }
 
-#nav {
-  text-align: center;
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-bottom: 1px solid #363636;
   margin-bottom: 1rem;
 }
 
-#nav a {
+nav a {
   padding: 6.8px 20px;
   font-size: 1rem;
   text-transform: uppercase;
@@ -65,11 +74,16 @@ p {
   color: #cdcdcd;
 }
 
-#nav a:hover {
+nav a:hover {
   color: #ffd744;
 }
 
-#nav a:link {
+nav a:link {
   text-decoration: none;
 }
+
+nav .menu-item svg {
+  margin-left: -1rem;
+}
+
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="faqs">
-    <div v-for="(faq, index) in faqsData" :key="index" :class="['faq', { 'is-open': isOpen.includes(index) }]" @click="toggleAccordion(index)">
+    <div v-for="(faq, index) in faqsData" :key="index" class="faq" @click="toggleAccordion(index)">
       <h2 class="question">{{ faq.name }}?</h2>
       <p :class="isOpen.includes(index) ? 'answer-open' : 'answer-closed'">{{ faq.body }}</p>
     </div>
