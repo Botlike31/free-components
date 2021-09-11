@@ -4,7 +4,7 @@ import FAQ from "../views/FAQ.vue";
 
 const routes = [
   {
-    path: "/news",
+    path: "/",
     name: "News",
     component: News
   },

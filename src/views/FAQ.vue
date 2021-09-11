@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <Accordion :faqsData="faqsData"></Accordion>
+    <Accordion :faqsData="faqsData"/>
   </div>
 </template>
 
@@ -13,7 +13,7 @@
     },
     data() {
       return {
-        faqsData: [],
+        faqsData: []
       }
     },
     mounted() {
@@ -31,10 +31,9 @@
 .faq {
   display: block;
   width: 100%;
-  margin: 1rem auto;
+  margin: auto;
   padding: 1rem;
   background: rgba(48,48,48,.4);
-  box-shadow: 0 0 10px rgb(0 0 0 / 60%);
 }
 
 .faq h2 {
@@ -52,10 +51,9 @@
   position: absolute;
   top: 50%;
   right: 0px;
-  transform: translateY(-50%) rotate(0deg);
-  width: 1.3rem;
-  height: 1.3rem;
-  background-image: url('../assets/plus.svg');
+  width: 1rem;
+  height: 1rem;
+  background-image: url('../assets/arrow-down.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -75,4 +73,5 @@
   overflow-y: hidden;
   transition: all 0.4s ease-out;
 }
+
 </style>

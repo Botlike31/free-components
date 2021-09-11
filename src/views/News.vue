@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Tabs :tabsData="tabsData"></Tabs>
+    <Tabs :tabsData="tabsData"/>
   </div>
 </template>
 
