@@ -2,6 +2,7 @@
   <section>
     <div id="nav">
       <router-link to="/news">News</router-link>
+      <router-link to="/faq">FAQ</router-link>
     </div>
     <div class="container">
       <router-view></router-view>
@@ -11,10 +12,31 @@
 
 <style>
 
-body {
+* {
   margin: 0;
-  background: #0d0d0d;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  font-family: Titillium Web,sans-serif;
   text-decoration: none;
+}
+
+h2 {
+  margin-bottom: .6rem;
+  color: #fff;
+  font-size: 22px;
+  line-height: 19px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.4rem;
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -33,7 +55,7 @@ body {
 
 #nav a {
   padding: 6.8px 20px;
-  font-size: 14px;
+  font-size: 1rem;
   text-transform: uppercase;
   line-height: 30px;
   font-family: 'Titillium Web',sans-serif;

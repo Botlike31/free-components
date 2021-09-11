@@ -1,11 +1,17 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import News from "../views/News.vue";
+import FAQ from "../views/FAQ.vue";
 
 const routes = [
   {
     path: "/news",
     name: "News",
     component: News
+  },
+  {
+    path: "/faq",
+    name: "FAQ",
+    component: FAQ
   }
 ];
 
