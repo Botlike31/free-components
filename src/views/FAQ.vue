@@ -57,14 +57,14 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: all 0.2s linear;
+  transition: all 0.4s linear;
 }
 
 .faq .answer-open{
   opacity: 1;
   max-height: 4rem;
   overflow-y: hidden;
-  transition: all 0.4s ease-out;
+  transition: all 0.4s ease-in;
 }
 
 .faq .answer-closed {
