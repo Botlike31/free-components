@@ -43,7 +43,6 @@ p {
   line-height: 1.4rem;
   font-size: 1rem;
   color: #e0e0e0;
-  margin-bottom: 1rem;
 }
 
 .container {
