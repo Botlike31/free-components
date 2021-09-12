@@ -8,18 +8,17 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue"
+import Navbar from "./components/Navbar.vue";
 
 export default {
   name: "app",
   components: {
-    Navbar
-  }
-}
+    Navbar,
+  },
+};
 </script>
 
 <style>
-
 * {
   margin: 0;
   padding: 0;
@@ -28,11 +27,11 @@ export default {
 
 body {
   background-color: #0d0d0d;
-  font-family: Titillium Web,sans-serif;
+  font-family: Titillium Web, sans-serif;
 }
 
 h2 {
-  margin-bottom: .6rem;
+  margin-bottom: 0.6rem;
   color: #fff;
   font-size: 22px;
   line-height: 19px;
@@ -52,37 +51,4 @@ p {
   width: 90%;
   height: 100vh;
 }
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #363636;
-  margin-bottom: 1rem;
-}
-
-nav a {
-  padding: 6.8px 20px;
-  font-size: 1rem;
-  text-transform: uppercase;
-  line-height: 30px;
-  font-family: 'Titillium Web',sans-serif;
-  white-space: nowrap;
-  transition: font-size .4s;
-  letter-spacing: .15rem;
-  color: #cdcdcd;
-}
-
-nav a:hover {
-  color: #ffd744;
-}
-
-nav a:link {
-  text-decoration: none;
-}
-
-nav .menu-item svg {
-  margin-left: -1rem;
-}
-
 </style>
