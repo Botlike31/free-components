@@ -44,6 +44,7 @@ nav {
 }
 
 nav a {
+  cursor: pointer;
   padding: 6.8px 20px;
   font-size: 1rem;
   text-transform: uppercase;
