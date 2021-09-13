@@ -4,8 +4,8 @@
 > Here you will find three components build with VueJs and love. A Demo of the project is linked further down.
 
   1. Navbar dropdown component, 
-  2. News tab component <br>
-  3.Faq Accordion
+  2. News tab component
+  3. Faq Accordion
 
 ### ✨ [Demo](https://nitrado-components.surge.sh)
 
