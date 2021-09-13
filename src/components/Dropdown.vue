@@ -1,10 +1,10 @@
 <template>
   <div
     class="menu-item"
-    @mouseover="isOpen = !isOpen"
+    v-on:click="isOpen = !isOpen"
     @mouseleave="isOpen = false"
   >
-    <a href="">{{ title }}</a>
+    <a>{{ title }}</a>
     <svg viewBox="0 0 1030 638" width="10">
       <path
         fill="#cdcdcd"
