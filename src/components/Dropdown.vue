@@ -11,12 +11,7 @@
         d="M1017 68L541 626q-11 12-26 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z"
       ></path>
     </svg>
-    <div
-      class="sub-menu"
-      v-show="isOpen"
-      @mouseover="isOpen = !isOpen"
-      @mouseleave="isOpen = false"
-    >
+    <div class="sub-menu" v-show="isOpen" @mouseleave="isOpen = false">
       <div v-for="(item, index) in items" :key="index" class="menu-item">
         <a href="#">{{ item.username }}</a>
       </div>
