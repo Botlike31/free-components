@@ -27,7 +27,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://jsonplaceholder.typicode.com/comments/?_limit=5")
+    fetch("https://jsonplaceholder.typicode.com/comments/?_limit=3")
       .then((res) => (res.ok && res.json()) || Promise.reject(res))
       .then((data) => {
         this.faqsData = data;
