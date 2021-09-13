@@ -7,7 +7,7 @@
   2. News tab component
   3. Faq Accordion
 
-### ✨ [Demo](https://nitrado-components.surge.sh)
+### ✨ [Demo](https://Three-C-Nitrado.surge.sh)
 
 ## Install
 ```sh
