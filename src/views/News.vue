@@ -115,6 +115,7 @@ li:hover {
   box-shadow: 0 0 50px #ffd74436;
 }
 .comment {
+  cursor: pointer;
   background: #303030;
   padding: 1.2rem;
   margin-bottom: 1.2rem;
