@@ -31,7 +31,6 @@ export default {
       .then((res) => (res.ok && res.json()) || Promise.reject(res))
       .then((data) => {
         this.faqsData = data;
-        /* console.log(this.faqsData); */
       });
   },
 };
